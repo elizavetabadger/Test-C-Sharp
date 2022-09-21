@@ -1,0 +1,15 @@
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\bin\Debug\net6.0\Task16.exe
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\bin\Debug\net6.0\Task16.deps.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\bin\Debug\net6.0\Task16.runtimeconfig.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\bin\Debug\net6.0\Task16.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\bin\Debug\net6.0\Task16.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.csproj.AssemblyReference.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.AssemblyInfoInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.AssemblyInfo.cs
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.csproj.CoreCompileInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\refint\Task16.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\Task16.genruntimeconfig.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar2\Task16\obj\Debug\net6.0\ref\Task16.dll
