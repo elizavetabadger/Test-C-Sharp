@@ -7,6 +7,10 @@ int firstDigit = number % 10;
 int lastDigit = number / 10;
 
 if (firstDigit > lastDigit)
+{
     Console.WriteLine(firstDigit);
+}
 else
+{
     Console.WriteLine(lastDigit);
+}
