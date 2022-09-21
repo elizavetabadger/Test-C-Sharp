@@ -7,9 +7,9 @@ int b = int.Parse(Console.ReadLine());
 
 if (b % a == 0)
 {
-    Console.WriteLine($"{b} кратно {a}");
+    Console.WriteLine($"{b} кратно {a}" );
 }
 else
 {
-    Console.WriteLine($"остаток от деления {b % a}");
+    Console.WriteLine($"остаток от деления {b % a}" );
 }
