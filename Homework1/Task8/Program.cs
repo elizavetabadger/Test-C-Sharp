@@ -8,5 +8,4 @@ while (number > i)
     {
      Console.WriteLine ($"{i}");
       i+=2;
-      }
-      
+      }    
