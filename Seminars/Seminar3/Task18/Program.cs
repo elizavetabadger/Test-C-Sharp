@@ -2,6 +2,7 @@
 Console.Write("Введите номер координатной четверти: ");
 int number = int.Parse(Console.ReadLine()!);
 
+
 if (number == 1) 
 {
     Console.WriteLine("X > 0 & Y > 0");
