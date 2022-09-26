@@ -12,7 +12,5 @@ for (int i=0; i<=array.Length-1; i++)
     {
         count = count + 1;
     }
-    else
-        count = count + 0;
 }
     Console.WriteLine ("число " + number + " встречалось " + count + " раз");
