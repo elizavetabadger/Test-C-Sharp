@@ -4,16 +4,19 @@
 
 Console.Write("Введите 8 чисел: ");
 int number = int.Parse(Console.ReadLine()!);
+
 int[] array =  new int[8];
+
 FillArray(array);
 PrintArray(array);
 
+
 void FillArray(int[] array)
 {
-    Random randGenerator = new Random();
+    Random rand = new Random();
     for (int i = 0; i < 8; i++)
     {
-        array[i] = randGenerator.Next(0, 10);
+        array[i] = rand.Next(0, 10);
     }
 }
 
