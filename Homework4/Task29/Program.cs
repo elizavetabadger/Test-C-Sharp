@@ -2,6 +2,8 @@
 
 //Console.Clear();
 
+Console.Write("Введите 8 чисел: ");
+int number = int.Parse(Console.ReadLine()!);
 int[] array =  new int[8];
 FillArray(array);
 PrintArray(array);
