@@ -1,23 +1,19 @@
 ﻿// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+Console.Clear();
 
-int number = ReadInt("Введите число: ");
-int len = NumberLen(number);
-SumNumbers(number, len);
-Console.WriteLine(sum);
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine()!);
 
+int length = NumberLen(number);
+int SumD = SumDigits(number, length);
+Console.WriteLine("Сумма цифр данного числа: " + SumD);
 
-// Функция ввода
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
 
 // Функция подсчета цифр в числе
 int NumberLen(int a)
 {
     int i = 0;
-    while (a > 0)
+    while (a > 0) // можно ли писать условия в строку?
     {
         a /= 10;
         i++;
@@ -26,12 +22,13 @@ int NumberLen(int a)
 }
 
 // Функция вывода суммы цифр в числе
-void SumNumbers(int n, int len)
+int SumDigits(int n, int length)
 {
     int sum = 0;
-    for (int i = 1; i <= len; i++)
+    for (int i = 1; i <= length; i++)
     {
         sum += n % 10;
         n /= 10;
     }
+    return sum;
 }
