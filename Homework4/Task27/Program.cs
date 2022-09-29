@@ -9,11 +9,10 @@ int SumD = SumDigits(number, length);
 Console.WriteLine("Сумма цифр данного числа: " + SumD);
 
 
-// Функция подсчета цифр в числе
 int NumberLen(int a)
 {
     int i = 0;
-    while (a > 0) // можно ли писать условия в строку?
+    while (a > 0)
     {
         a /= 10;
         i++;
@@ -21,7 +20,6 @@ int NumberLen(int a)
     return i;
 }
 
-// Функция вывода суммы цифр в числе
 int SumDigits(int n, int length)
 {
     int sum = 0;
