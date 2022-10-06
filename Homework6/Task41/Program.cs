@@ -1,39 +1,28 @@
-﻿// Пользователь вводит с клавиатуры число M, потом вводит M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
-// Console.Clear();
-Console.WriteLine("Введите размер массива: ");
-int[] CreateArray(int size) = int.Parse(Console.ReadLine()!);
+﻿// Пользователь вводит с клавиатуры число M, потом вводит M чисел ЧЕРЕЗ ENTER. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+Console.Clear();
 
-Console.WriteLine("Введите числа через пробел");
-string input = Console.ReadLine()!;
-int[] newArray = ParseToArray(input);
-//int[] newArray = RandomArray();
-
-PrintArray(newArray);
-
-
-int[] array = CreateArray(4);
-
-Console.WriteLine($"[{string.Join(",",array)}] -> {Sum(array)}");
-
-int[] CreateArray(int size)
+Console.WriteLine($"Введите количество цифр: ");
+int numCount = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Введите цифры через ENTER: ");
+int[] numArray = new int[numCount];
+ 
+for (int i = 0; i < numArray.Length; i++)
 {
-    int[] array = new int[size];
+    numArray[i] = int.Parse(Console.ReadLine()!);
+}
+ 
+Console.WriteLine($"Количество чисел больше 0 = {CountPositiveNumbers(numArray)}");
+
+
+int CountPositiveNumbers(int[] array)
+{
+    int counter = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rand.Next(-50, 100);
+        if (array[i] > 0)
+        {
+            counter++;
+        }
     }
-    return array;
-}
-
-int[] ParseToArray(string str)
-{
-    string[] stringArray = str.Split(" ");
-    int[] result = new int[stringArray.Length];
- 
-    for (int i = 0; i < stringArray.Length; i++)
-    {
-        result[i] = int.Parse(stringArray[i]);
-    }
- 
-    return result;
+    return counter;
 }

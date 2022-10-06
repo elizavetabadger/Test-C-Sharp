@@ -18,7 +18,7 @@ double intersectionPoint(double B1, double K1, double B2, double K2)
     {
         Console.WriteLine("Прямые совпадают");
     }
-    else if (K1==K2)
+    else if (K1 == K2)
     {
         Console.WriteLine("Прямые параллельны");
     }
