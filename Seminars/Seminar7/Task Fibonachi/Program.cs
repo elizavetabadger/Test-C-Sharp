@@ -6,10 +6,12 @@ double SlowFibonacci(int n)
     else
         return SlowFibonacci(n - 1) + SlowFibonacci(n - 2);
 }
-double FastFibonacci(int n, int sum = 1, int previousSum = 0)
+double FastFibonacci(int n, int sum = 0)
 {
     if (n == 0) 
-        return previousSum;
+        return sum;
     else
-        return FastFibonacci(n - 1, sum + previousSum, sum);
+        return FastFibonacci(n - 1, sum + n);
 }
+
+Console.Write(FastFibonacci(5));

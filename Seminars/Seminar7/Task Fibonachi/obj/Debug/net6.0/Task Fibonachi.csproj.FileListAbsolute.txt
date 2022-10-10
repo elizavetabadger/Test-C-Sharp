@@ -1,0 +1,15 @@
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\bin\Debug\net6.0\Task Fibonachi.exe
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\bin\Debug\net6.0\Task Fibonachi.deps.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\bin\Debug\net6.0\Task Fibonachi.runtimeconfig.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\bin\Debug\net6.0\Task Fibonachi.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\bin\Debug\net6.0\Task Fibonachi.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.csproj.AssemblyReference.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.AssemblyInfoInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.AssemblyInfo.cs
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.csproj.CoreCompileInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\refint\Task Fibonachi.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\Task Fibonachi.genruntimeconfig.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar7\Task Fibonachi\obj\Debug\net6.0\ref\Task Fibonachi.dll
