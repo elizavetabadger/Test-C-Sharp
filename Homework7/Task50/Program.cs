@@ -1,17 +1,9 @@
 ﻿// Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 Console.Clear();
  
-int[,] array = new int[5, 5];
+int[,] array = new int[6, 6];
 
-Random generator = new Random();
-for (int i = 0; i < array.GetLength(0); i++)
-{
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-        array[i, j] = generator.Next(0, 10);
-    }
-}
-
+FillArray(array);
 PrintArray(array);
 
 Console.Write("Введите индекс строки: ");
@@ -54,4 +46,15 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
     Console.WriteLine();
+}
+
+void FillArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            array[i, j] = new Random().Next(0, 10);
+        }
+    }
 }

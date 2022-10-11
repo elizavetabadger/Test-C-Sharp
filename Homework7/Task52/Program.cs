@@ -1,15 +1,26 @@
 ﻿//Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-Console.Write("Введите индекс строки: ");
+Console.Write("Введите количество строк: ");
 int row = int.Parse(Console.ReadLine()!);
-Console.Write("Введите индекс столбца: ");
+Console.Write("Введите количество столбцов: ");
 int column = int.Parse(Console.ReadLine()!);
 
 int[,] array = new int[row, column];
 
-PrintArray(array);
-Console.WriteLine();
+FillArray(array);
 PrintArray(array);
 
+double[] ArrayAverage = new double[array.GetLength(1)];
+for (int i = 0; i < array.GetLength(1); i++)
+{
+    double sum = 0.0;
+    for (int j = 0; j < array.GetLength(0); j++)
+    {
+        sum += array[j,i];
+    }
+    ArrayAverage[i] = sum / array.GetLength(0);
+}
+
+PrintArrayAverage(ArrayAverage);
 
 void FillArray(int[,] array)
 {
@@ -38,18 +49,11 @@ void PrintArray(int[,] array)
     Console.WriteLine();
 }
 
-int[] CalcAverage(int[,] array)
+void PrintArrayAverage(double[] array)
 {
-    int[] result = new int[array.GetLength(1)];
-    int sum;
-    for (int i = 0; i < array.GetLength(1); i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        sum = 0;
-        for (int j = 0; j < array.GetLength(0); j++)
-        {
-            sum += array[j,i];
-        }
-        result[i] = sum / array.GetLength(0);
+        Console.Write(array[i] + " ");
     }
-    return result;
+    Console.WriteLine();
 }
