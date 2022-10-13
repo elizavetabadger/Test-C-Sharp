@@ -1,0 +1,15 @@
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.csproj.AssemblyReference.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.AssemblyInfoInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.AssemblyInfo.cs
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.csproj.CoreCompileInputs.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\bin\Debug\net6.0\Task70.exe
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\bin\Debug\net6.0\Task70.deps.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\bin\Debug\net6.0\Task70.runtimeconfig.json
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\bin\Debug\net6.0\Task70.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\bin\Debug\net6.0\Task70.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\refint\Task70.dll
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.pdb
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\Task70.genruntimeconfig.cache
+C:\Users\Елизавета\Desktop\C_Sharp\Seminars\Seminar9\Task70\obj\Debug\net6.0\ref\Task70.dll
