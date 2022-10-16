@@ -13,7 +13,7 @@ if(n < 1)
 }
 Console.WriteLine ($"{NaturNamber(n, m)}");
 
-int NaturNamber( int n, int m)
+int NaturNamber(int n, int m)
 {
     if(n == m)
         return n;
