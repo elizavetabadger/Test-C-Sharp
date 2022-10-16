@@ -1,18 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/* Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+m = 2, n = 3 -> A(m,n) = 9
+m = 3, n = 2 -> A(m,n) = 29 */
 
-int m = InputInt("Введите M:");
-int n = InputInt("Введите N:");
-Console.WriteLine($"Сумма элементов от {m} до {n} = {CountNaturalSum(m, n)}");
+Console.WriteLine("Введите два неотрицательных числа M и N");
+Console.WriteLine("Введите M: ");
+int m = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите N: ");
+int n = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"A({m}, {n}) = {Akkerman(m, n)}");
 
-int InputInt(string output)
+int Akkerman(int m, int n)
 {
-    Console.Write(output);
-    return int.Parse(Console.ReadLine());
-}
-
-int CountNaturalSum(int m, int n)
-{
-    if (m == n)
-        return n;
-    return n + CountNaturalSum(m, n - 1);
+    if (m == 0)
+        return n + 1;
+    if (m > 0 && n == 0)
+        return Akkerman(m - 1, 1);
+    else
+        return Akkerman(m - 1, Akkerman(m, n - 1));
 }
