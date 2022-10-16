@@ -14,7 +14,7 @@ WriteWord(alphabet, word);
  
 void WriteWord(char[] array, char[] word, int length = 0)
 {
-    if (length == word.Length)
+    if (length == word.Length) // выход из рекурсии - длина слова = длине массива
     {
         Console.WriteLine($" {new String(word) }");
         return;
@@ -22,7 +22,7 @@ void WriteWord(char[] array, char[] word, int length = 0)
  
     for (int i = 0; i < array.Length; i++)
     {
-        word[length] = array[i];
+        word[length] = array[i]; 
         WriteWord(array, word, length + 1);
     }
 }
